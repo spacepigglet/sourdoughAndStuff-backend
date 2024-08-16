@@ -7,7 +7,7 @@ const mongo_username = process.env['MONGO_USERNAME']
 const mongo_password = process.env['MONGO_PASSWORD']
 const uri = `mongodb+srv://${mongo_username}:${mongo_password}@sourdoughandstuff.hr0bb.mongodb.net/?retryWrites=true&w=majority&appName=SourdoughAndStuff`
 
-const port = 8000
+const port = 10000
 const options = {
     maxPoolSize: 50,
     wtimeoutMS: 2500, //how long it can be trying to connect before time out
